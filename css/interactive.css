@@ -1,0 +1,70 @@
+svg {
+
+  width: 100%;
+  height: 50%;
+  background: #000;
+  background-size: 0.2em 50%;
+  font: 16em/1 Arial;
+}
+
+.webcoderskull-1 {
+  fill: none;
+  stroke: green;
+  stroke-dasharray: 7% 28%;
+  stroke-width: 6px;
+   
+   
+  -webkit-animation: stroke-offset 12s infinite;
+}
+.webcoderskull-1:nth-child(1) {
+  stroke: #0b95de;
+  stroke-dashoffset: 27%;
+}
+.webcoderskull-1:nth-child(2) {
+  stroke: #fa0606;
+  stroke-dashoffset: 34%;
+}
+.webcoderskull-1:nth-child(3) {
+  stroke: #00c626;
+  stroke-dashoffset: 41%;
+}
+.webcoderskull-1:nth-child(4) {
+  stroke: #0009f0;
+  stroke-dashoffset: 48%;
+}
+.webcoderskull-1:nth-child(5) {
+  stroke: #1b8798;
+  stroke-dashoffset: 55%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 35%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+header a {
+  color: white;
+  font-size: 22px;
+  font-family: "Times New Roman", sans-serif, serif;
+}
+header a:hover {
+  color: #040efd;
+  text-decoration: none;
+}
+.Navbar-brand {
+    background-image: url("../images/Orr_Logo.jpg");
+    background-position: center;
+     height: 500px; /* You must set a specified height */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;
+    
+}
